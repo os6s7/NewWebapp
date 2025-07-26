@@ -9,7 +9,7 @@ export default defineConfig({
     outDir: '../dist',
     emptyOutDir: true,
     rollupOptions: {
-      input: path.resolve(__dirname, 'src/main.js') // نحدد نقطة الدخول صراحةً
+      input: path.resolve(__dirname, 'src/main.js')
     }
   }
 })
